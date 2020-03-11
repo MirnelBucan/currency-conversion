@@ -22,7 +22,7 @@ mvn --version
 
 ### Installing
 
-To install program on your machine to able to run in to follow next steps.
+To install program on your machine, follow steps.
 
 First clone the repository:
 ```
