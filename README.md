@@ -35,7 +35,7 @@ Next in directory where you cloned the program go to
 <br>
 Inside `config.properties` place you api key you got from https://free.currencyconverterapi.com/ .
 <br>
-Next from the same directory run :
+Next from directory where pom.xml file is located run :
 
 ```
 mvn clean install assembly:single
