@@ -29,17 +29,24 @@ First clone the repository:
 git clone https://github.com/MirnelBucan/currency-conversion.git
 ```
 
-In directory where u cloned program run:
+Go to https://free.currencyconverterapi.com/ and get your free api key.
+Next in directory where you cloned the program go to
+`src/main/resources` and change `config.properties.example` to `config.properties` .
+<br>
+Inside `config.properties` place you api key you got from https://free.currencyconverterapi.com/ .
+<br>
+Next from the same directory run :
 
 ```
 mvn clean install assembly:single
 ```
 
-This will create single jar with program and dependencies.
+This will create new folder `target`, inside it you'll see jar file `currencyConverter.jar` .
+
 
 ### Usage
 
-To run the program, from directory where it's cloned run:
+To run the program:
 <br>
 Example:
 ```
@@ -56,6 +63,7 @@ Conversion:
 
 Note:
 Flags -f, -t, -a are required for program to run.
+Optional flags -ccy, ctry.
 <br>
 Detailed flags:
 ```
